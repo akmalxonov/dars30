@@ -1,0 +1,32 @@
+.container {
+    width: 1120px;
+    min-width:375px ;
+    margin: 0 auto;
+
+}
+.hero-container{
+    width: 1280px;
+    min-width:375px;
+    margin:0 auto;
+}
+
+@include mobile(){
+    .container{
+        width: 100%;
+        padding: 0 32px;
+        max-width: 571px;
+    }
+    .hero-container{
+        width: 100%;
+        padding: 0 15px;
+        max-width: 571px;
+    }
+}
+@include tablet(){
+    .container{
+        width: 864px;
+    }
+    .hero-container{
+        width: 944px;
+    }
+}
