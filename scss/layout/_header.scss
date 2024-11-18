@@ -9,12 +9,16 @@
         display: flex;
         align-items: center;
         gap: 40px;
+        transition: 0.3s ease-in-out;
         a {
             padding: 16px 0 16px 40px;
             border-left: 1px solid #E6E8EC;
             font-size: 14px;
             font-weight: 700;
             color: #777E90;
+            &:hover{
+                color: blue;
+            }
         }
     }
     &__list {
@@ -29,6 +33,10 @@
         display: flex;
         align-items: center;
         gap: 12px;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            color: blue;
+        }
     }
     .btn {
         color: black;
@@ -37,6 +45,11 @@
         border-radius: 90px;
         display: block;
         margin: auto;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            background-color: #777E90;
+            color: white;
+        }
     }
     &__hamburger{
         display: none;

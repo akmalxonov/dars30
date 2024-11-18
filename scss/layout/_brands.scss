@@ -6,6 +6,10 @@
     }
     &__img{
         padding: 42px 60px;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            box-shadow: #E6E8EC 0px -50px 36px -28px inset;
+        }
         img{
             display: block;
             margin: auto;
